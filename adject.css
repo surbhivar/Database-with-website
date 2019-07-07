@@ -1,0 +1,128 @@
+#jiit{
+color:blue;
+ text-align: center; 
+}
+#deem{
+color:darkblue;
+text-align: center; }
+#Ai{
+color:red;
+text-align: center; }
+
+  .jumbotron {
+    background-image: url("Logo-jiit.png");
+    background-repeat: no-repeat;
+  background-position: left}
+  
+  
+nav {
+    background: #109;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+    nav ul li:hover {
+        background: #03ADDF;
+    }
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+}
+    nav ul li a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+/* Sub Menu */
+nav ul li.parent ul.child {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent:hover ul.child {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 40px;
+    background: #03ADDF;
+}
+
+nav ul li.parent ul.child li {
+    width: 9em;
+    padding: 0;
+}
+nav ul li.parent ul.child li:hover {
+    background: #008FBA;
+}
+nav ul li.parent ul.child li a {
+    display: block;
+}
+nav ul li.parent1 ul.child1 {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent1:hover ul.child1 {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 40px;
+    background: #03ADDF;
+}
+
+nav ul li.parent1 ul.child1 li {
+    width: 9em;
+    padding: 0;
+}
+nav ul li.parent1 ul.child1 li:hover {
+    background: #008FBA;
+}
+nav ul li.parent1 ul.child1 li a {
+    display: block;
+}
+nav ul li.parent2 ul.child2 {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent2:hover ul.child2 {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 40px;
+    background: #03ADDF;
+}
+
+nav ul li.parent2 ul.child2 li {
+    width: 9em;
+    padding: 0;
+}
+nav ul li.parent2 ul.child2 li:hover {
+    background: #008FBA;
+}
+nav ul li.parent2 ul.child2 li a {
+    display: block;
+}nav ul li.parent3 ul.child3 {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent3:hover ul.child3 {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 40px;
+    background: #03ADDF;
+}
+
+nav ul li.parent3 ul.child3 li {
+    width: 9em;
+    padding: 0;
+}
+nav ul li.parent3 ul.child3 li:hover {
+    background: #008FBA;
+}
+nav ul li.parent3 ul.child3 li a {
+    display: block;
+}
